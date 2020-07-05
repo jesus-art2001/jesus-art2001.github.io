@@ -1,0 +1,62 @@
+
+section{
+  list-style: none;
+}
+
+form{
+  margin-top: 150px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+
+}
+#boton{
+  background: #31384a;
+  color: white;
+  padding: 20px;
+}
+#boton:hover{
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px){
+  form{
+    width: 100%;
+  }
+}
+
+
+#gracias{
+  width: 500px auto;
+  height: auto;
+  margin-top: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background: lightgreen;
+
+}
+h5{
+  font-size: 2rem;
+  font-family: arial,cursive;
+  color: white;
+  text-align: center;
+
+}

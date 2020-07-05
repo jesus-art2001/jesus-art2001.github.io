@@ -1,0 +1,373 @@
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(236, 120, 11);
+  font-size: 0 auto; 
+  line-height: 1.1em; 
+  margin: 0;
+  background: url(../imagenes/fondo.jpg)  no-repeat center fixed;
+   background-size: cover;
+
+ 
+}
+
+h1 {
+  font-size: 2.5vw;
+  line-height: 1.3em;
+}
+h2{
+  font-size: 1.8vw;
+   font-family: Arial calibri, cursive;
+   color:black;
+   text-align: center;
+}
+
+
+p {
+  font-size: 1.3vw;
+  margin-bottom: 1em; 
+  color: black;
+  text-align: justify;
+}
+#p1{
+  text-align: center;
+  font-size: 1.3vw;
+}
+span{
+  font-size: 1.4em;
+  font-family: bold;
+}
+
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  padding: 0.5rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+
+.logo {
+  letter-spacing: 15px;
+  font-size: 1.3em;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+
+  display: inline-block;
+}
+
+
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+ background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+}
+
+.main {
+  padding-top: 12rem;
+}
+
+
+.footer {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+
+.menu-link{
+    color: black;
+}
+
+.fb{
+    color: blue;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+    .navigation ul{
+        display: block;
+    }
+    .navigation ul.show{
+        display: none;
+    }
+      
+    .navigation ul li {
+        display: block;
+      }
+      
+      /* los enlaces dentro del menu */
+      .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.2s linear;
+        border-radius: 5px;
+      }
+      
+      .navigation ul li a:hover {
+        background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+      }
+}
+section{
+  list-style: none;
+}
+
+#seccion1{
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+  
+  margin-right: 5%;
+  margin-top: 150px;
+  vertical-align: center;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.imagen{
+  height:  auto;
+  max-width: 100%;
+  width: 100% auto;
+  
+  margin: 10px auto;
+  display: block;
+  
+
+}
+#seccion2{
+  max-width: 100%;
+   width: 50%;
+  height: auto;
+  
+  margin-right: 5%;
+  margin-top: 200px;
+  vertical-align: center;
+   background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+
+
+}
+#seccion3{
+    width: 60%;
+  height: 500px auto;
+  background-color: #498;
+  
+  margin-top: 150px;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+   display: inline-block;
+   
+
+  
+}
+
+aside{
+  width: 39%;
+  height: 534px auto ;
+  margin-top: 150px;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  display: inline-block;
+  vertical-align: top
+}
+.info{
+  
+  font-family: arial;
+  font-size: 1.3VW;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+.slider{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 500%;
+  animation: cambio 30s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+.slider li{
+  list-style: none;
+  width: 100%;
+}
+.slider img{
+  width: 100%;
+}
+@keyframes cambio{
+  0%{ margin-left: 0; }
+  15%{ margin-left: 0; }
+
+  20%{margin-left: -100%;}
+  40%{margin-left: -100%;}
+
+  45%{margin-left: -200%;}
+  60%{margin-left: -200%;}
+
+  65%{margin-left: -300%;}
+  80%{margin-left: -300%;}
+
+  85%{margin-left: -400%;}
+  100%{margin-left: -400%;}
+  
+}
+audio{
+  width: 100%;
+}
+#seccion4{
+   max-width: 100%;
+   width: 70%;
+  height: auto;
+  
+  margin-right: 5%;
+  margin-top: 200px;
+  vertical-align: center;
+   background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+#logo3{
+  width: 30%;
+  height: 90px:;
+  display: inline-block;
+  
+}
+#logo3 img{
+  width: 45%;
+  height: 90px;
+}
+#redes{
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+#redes a{
+  width: 30%;
+  height: 32px;
+ }
+ #datos{
+  width: 45%;
+  text-align: left;
+  font-size: 1.3vw;
+  
+  display: inline-block;
+  vertical-align: top;
+  color: black;
+ }
+ #datos ul{
+  list-style: none;
+ }
+ table{
+  width: 50%;
+  height: auto;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  border:2px solid linear-gradient(-60deg, #16a085 0%, #f4d03f 100%) ;
+  
+ }
+th{
+  border:2px solid #000;
+}
+td{
+  border:2px solid #000;
+}
+h5{
+  color: green;
+  font-size: 3vw;
+  margin-top: 350px;
+  text-align: center;
+}
+
+
+#termino{
+  width: 75%;
+  height: 500px;
+  overflow: scroll;
+  border:2px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+ margin-top: 120px;
+}
+#politica{
+  width: 75%;
+  height: 500px;
+  overflow: scroll;
+  border:2px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+ margin-top: 120px;
+}
+#politica article{
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+#termino article{
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -269,6 +269,7 @@ aside{
 }
 audio{
   width: 100%;
+  position:static;
 }
 #seccion4{
    max-width: 100%;

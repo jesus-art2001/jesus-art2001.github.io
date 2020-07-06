@@ -113,6 +113,58 @@ span{
   padding: 4rem 0;
   text-align: center;
   margin-top: 6rem;
+  
+}
+.footer1 {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  padding: 4rem 0;
+  text-align: left;
+  width: 100%;
+  height: 200px;
+  
+  
+}
+#sitemap{
+  font-size: 1.2vw;
+  color: white;
+  line-height: normal;
+}
+#mapas{
+  width: 30%;
+  display: inline-block;
+}
+.footer1 ul{
+  list-style: none;
+  color: #000;
+  font-size: 1.2vw;
+}
+.footer1 ul li a{
+  color: #000;
+  font-size: 1.2vw;
+  text-decoration: none;
+  line-height: 3vw;
+}
+#mapas1{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+#mapas1 ul {
+  list-style: none;
+  color: #000;
+  font-size: 1.2vw;
+}
+#mapas1 ul li a{
+  color: #000;
+  font-size: 1.2vw;
+  text-decoration: none;
+  line-height: 3vw;
+}
+#mapasite{
+  text-align: center;
+  color: #000;
+  font-size: 1.6vw;
+  text-decoration: none;
 }
 
 
@@ -214,7 +266,7 @@ section{
 }
 
 aside{
-  width: 39%;
+  width: 35%;
   height: 534px auto ;
   margin-top: 150px;
   background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
@@ -269,7 +321,6 @@ aside{
 }
 audio{
   width: 100%;
-  position:static;
 }
 #seccion4{
    max-width: 100%;
@@ -286,7 +337,7 @@ audio{
 }
 #logo3{
   width: 30%;
-  height: 90px:;
+  height: 90px;
   display: inline-block;
   
 }
@@ -371,56 +422,4 @@ h5{
   height: auto;
   margin-right: auto;
   margin-left: auto;
-}
-
-.footer1 {
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-  padding: 4rem 0;
-  text-align: left;
-  width: 100%;
-  height: 200px;
-  
-  
-}
-#sitemap{
-  font-size: 1.2vw;
-  color: white;
-  line-height: normal;
-}
-#mapas{
-  width: 30%;
-  display: inline-block;
-}
-.footer1 ul{
-  list-style: none;
-  color: #000;
-  font-size: 1.2vw;
-}
-.footer1 ul li a{
-  color: #000;
-  font-size: 1.2vw;
-  text-decoration: none;
-  line-height: 3vw;
-}
-#mapas1{
-  width: 30%;
-  display: inline-block;
-  vertical-align: top;
-}
-#mapas1 ul {
-  list-style: none;
-  color: #000;
-  font-size: 1.2vw;
-}
-#mapas1 ul li a{
-  color: #000;
-  font-size: 1.2vw;
-  text-decoration: none;
-  line-height: 3vw;
-}
-#mapasite{
-  text-align: center;
-  color: #000;
-  font-size: 1.6vw;
-  text-decoration: none;
 }

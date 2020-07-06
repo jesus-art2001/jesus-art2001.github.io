@@ -372,3 +372,55 @@ h5{
   margin-right: auto;
   margin-left: auto;
 }
+
+.footer1 {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  padding: 4rem 0;
+  text-align: left;
+  width: 100%;
+  height: 200px;
+  
+  
+}
+#sitemap{
+  font-size: 1.2vw;
+  color: white;
+  line-height: normal;
+}
+#mapas{
+  width: 30%;
+  display: inline-block;
+}
+.footer1 ul{
+  list-style: none;
+  color: #000;
+  font-size: 1.2vw;
+}
+.footer1 ul li a{
+  color: #000;
+  font-size: 1.2vw;
+  text-decoration: none;
+  line-height: 3vw;
+}
+#mapas1{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+#mapas1 ul {
+  list-style: none;
+  color: #000;
+  font-size: 1.2vw;
+}
+#mapas1 ul li a{
+  color: #000;
+  font-size: 1.2vw;
+  text-decoration: none;
+  line-height: 3vw;
+}
+#mapasite{
+  text-align: center;
+  color: #000;
+  font-size: 1.6vw;
+  text-decoration: none;
+}
